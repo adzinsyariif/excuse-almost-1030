@@ -31,9 +31,15 @@
 # nobody left to argue with. Also dropped "My" to sound less rehearsed.
 #   -> "Laptop forced the big Windows update, stuck at 27% for an hour, IT said don't touch it."
 
+# Revision 2: make it read like a text sent in a hurry (criterion 4). Lowercase
+# start, no full stop, and "since 8" instead of "for an hour" -- a clock time
+# is more specific than a duration and four characters shorter, and shorter
+# reads less rehearsed. Final line: 82 chars, 16 words (limits: 140 / 20).
+#   -> "laptop forced the big windows update, stuck at 27% since 8, IT said don't touch it"
+
 import os
 
-LINE = "Laptop forced the big Windows update, stuck at 27% for an hour, IT said don't touch it."
+LINE = "laptop forced the big windows update, stuck at 27% since 8, IT said don't touch it"
 
 
 def main():
