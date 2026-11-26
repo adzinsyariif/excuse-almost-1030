@@ -25,9 +25,15 @@
 # boring, specific, and undeniable, and it is the rare excuse a manager cannot
 # argue with because arguing does not unstick the laptop.
 
+# Revision 1: "says 3 hours" is a guess anyone could invent. Swapped it for a
+# stuck progress percentage -- the specific, boring detail criterion 2 wants --
+# and added IT as the authority who said not to touch it, so the boss has
+# nobody left to argue with. Also dropped "My" to sound less rehearsed.
+#   -> "Laptop forced the big Windows update, stuck at 27% for an hour, IT said don't touch it."
+
 import os
 
-LINE = "My laptop picked today to run the big Windows update, says 3 hours, can't stop it."
+LINE = "Laptop forced the big Windows update, stuck at 27% for an hour, IT said don't touch it."
 
 
 def main():
